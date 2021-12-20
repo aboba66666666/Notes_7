@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.AboutPage"
+             Title="О приложении">
+    <!-- Layout children in two rows -->
+    <Grid RowDefinitions="Auto,*">
+        <!-- Layout children vertically -->
+        <StackLayout Grid.Row="1"
+                     Margin="20"
+                     Spacing="20">
+            <Label TextColor="Black" 
+                   FontSize="22" >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Заметки"
+                                  FontAttributes="Bold"
+                                  FontSize="22" 
+                                  TextColor="Black" />
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label TextColor="Black" 
+                   Text="Это приложение написано на XAML и C# на платформе Xamarin."/>
+            <StackLayout>
+                <Button Text="Learn more"
+                    Clicked="OnButtonClicked" />
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

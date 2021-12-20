@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.ChangeLog2"
+             Title="Иписок изменений">
+    <StackLayout Margin="20">
+        <Frame>
+            <StackLayout>
+                <Label Text="Notes a201121_5"
+                           TextColor="#fff"
+                           FontSize="14"/>
+                <Label Text="Изменения:"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Теперь можно сохранять и удалять заметки"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Кнопка справа на верхней панели для создания заметки"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="Исправления:"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Теперь текст заметки и даты создания видны"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Так же текст виден при создании заметки"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="Дата релиза: 20.11.2021"
+                           TextColor="Silver"
+                           FontSize="Micro" />
+            </StackLayout>
+        </Frame>
+
+        <Frame>
+            <StackLayout>
+                <Label Text="Notes a181121_4"
+                           TextColor="#fff"
+                           FontSize="14"/>
+                <Label Text="Изменения:"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Поле ввода текста"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Две кнопки без функционала"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Вкладка с краткой информацией о приложении"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="Дата релиза: 18.11.2021"
+                           TextColor="Silver"
+                           FontSize="Micro" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

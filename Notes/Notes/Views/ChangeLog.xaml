@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.ChangeLog"
+             Title="Иписок изменений">
+    <StackLayout Margin="20">
+        <Frame>
+            <StackLayout>
+                <Label Text="Notes a211121_7.1"
+                           TextColor="#fff"
+                           FontSize="14"/>
+                <Label Text="Изменения:"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Темная тема (!)"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Текст заметок дополнительно выделен рамкой"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Добавлен список изменений"
+                           TextColor="#fff"
+                           FontSize="12"/>
+
+                <Label Text="Дата релиза: 21.11.2021"
+                           TextColor="Silver"
+                           FontSize="Micro" />
+            </StackLayout>
+        </Frame>
+
+        <Frame>
+            <StackLayout>
+                <Label Text="Notes a201121_7"
+                           TextColor="#fff"
+                           FontSize="14"/>
+                <Label Text="Изменения:"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Изменение визуала приложения"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -хз вроде еще дополнена вкладка ''о приложении''"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -уже не помню"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="Исправления:"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Теперь нопки на нижней панели видны"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="Дата релиза: 20.11.2021"
+                           TextColor="Silver"
+                           FontSize="Micro" />
+            </StackLayout>
+        </Frame>
+
+        <Frame>
+            <StackLayout>
+                <Label Text="Notes a201121_6"
+                           TextColor="#fff"
+                           FontSize="14"/>
+                <Label Text="Изменения:"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="   -Хранение данных в локальной базе данных"
+                           TextColor="#fff"
+                           FontSize="12"/>
+                <Label Text="Дата релиза: 20.11.2021"
+                           TextColor="Silver"
+                           FontSize="Micro" />
+            </StackLayout>
+        </Frame>
+
+        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+            <Button Text="Далее"
+                        Clicked="OnNextClicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
